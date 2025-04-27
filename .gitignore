@@ -1,0 +1,5 @@
+*.sh
+/downloads
+ffmpeg_yt.py
+test_videos.txt
+yt_old.py
