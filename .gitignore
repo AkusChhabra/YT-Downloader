@@ -1,5 +1,10 @@
 *.sh
 /downloads
 ffmpeg_yt.py
-test_videos.txt
+*.txt
 yt_old.py
+*.egg-info
+__pycache__
+
+
+

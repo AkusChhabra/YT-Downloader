@@ -7,7 +7,7 @@ def download():
 
     url = input("Enter a YouTube video URL: ")
     output_extension = "mp4"
-    output_path = "./downloads"
+    output_path = "./../downloads"
 
     try:
         yt = YouTube(url, on_progress_callback=on_progress)
@@ -54,5 +54,5 @@ def download():
     except Exception as e:
         print(f"An error has occurred: {e}")
 
-if __name__ == "__main__":
-    download()
+#if __name__ == "__main__":
+#    download()
