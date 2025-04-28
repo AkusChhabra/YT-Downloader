@@ -1,3 +1,7 @@
+![Static Badge](https://img.shields.io/badge/python-v3.13-blue)
+![Static Badge](https://img.shields.io/badge/FFmpeg-v7.1.1-green)
+![Static Badge](https://img.shields.io/badge/PyTubeFix-v8.12.3-red)
+
 # YT Downloader with PyTubeFix and FFmpeg Implementation
 
 As a prerequisite, please ensure Python3.13 is installed. Follow the steps below to run the program.
@@ -5,8 +9,6 @@ As a prerequisite, please ensure Python3.13 is installed. Follow the steps below
 ## Package Installation
 
 Ensure the following packages are installed.
-
-PyTubeFix >= 8.12.3; FFmpeg >= 7.1.1; SetupTools >= 80.0.0
 
 ### PyTubeFix
 
@@ -57,4 +59,4 @@ To run the program, execute the command in your CLI; Command Prompt for Windows 
 dyt url
 ```
 
-This will prompt you to enter a url. Press enter to submit your url and the video will be downloaded to the ```/downloads``` folder. This folder will be created if it does not exist.
+This will prompt you to enter a url. Type or paste your url then press enter to submit your url. The video will be downloaded to the ```/downloads``` folder. This folder will be created if it does not exist.
